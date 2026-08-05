@@ -4,7 +4,6 @@ A collection of small front-end projects built while practicing and learning HTM
 
 ## 🔗 Live Demos
 
-Once GitHub Pages is enabled for this repo, every project will be viewable directly in the browser at:
 
 ```
 https://imityaz0459.github.io/HTML-CSS/<project-folder-name>/
