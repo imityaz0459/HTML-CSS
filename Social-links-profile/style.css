@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    
+    background-color:#141414 ;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card{
+background-color: #1F1F1F;
+padding: 2rem;
+display: flex;
+flex-direction: column;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 0.8rem;
+}
+.image-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile-image{
+    height: 5rem;
+    width: 4.5rem;
+    border-radius: 60%;
+}
+.profile-info{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.name{
+    color:white;
+    font-family: "Inter", sans-serif;
+}
+.address{
+    color: #C5F82A;
+      margin-top: 0.5rem;
+      font-family:"inter", sans-serif;
+}
+.profile-para{
+    margin-top:0.8rem;
+    color: #cccccc;
+    text-align: center;
+     font-family: "Inter", sans-serif;
+     font-size: 14px;
+}
+.socials{
+     margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.2rem;
+   
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(51, 51, 51);
+    text-decoration: none;
+    color: white;
+     padding:0.9rem 1rem;
+     margin: 0.5rem;
+     border-radius: 5px;
+      font-family: "Inter", sans-serif;
+      font-weight:600;
+      transition: all ease 0.1s;
+}
+.buttons:hover{
+    background-color:#C5F82A ;
+    color: black;
+}

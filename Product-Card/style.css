@@ -1,0 +1,153 @@
+:root {
+  /* Background */
+  --cream: #F3EAE3;
+
+  /* Card */
+  --white: #FFFFFF;
+
+  /* Heading */
+  --black: #1C232B;
+
+  /* Body Text */
+  --grey: #6C7289;
+
+  /* Light Text (PERFUME, old price) */
+  --light-grey: #A7A7A7;
+
+  /* Primary Green */
+  --green-500: #3D8168;
+
+  /* Button Hover */
+  --green-700: #1A4032;
+
+  /* Image Colors */
+  --leaf-dark: #2F3724;
+  --leaf-medium: #4D5B3D;
+  --leaf-light: #73806E;
+
+  /* Perfume Bottle */
+  --gold: #C9A55A;
+  --gold-light: #E2C57B;
+
+  /* Shadows / Borders */
+  --border: #E6E6E6;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: var(--cream);
+    min-height: 100vh;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background-color: var(--white);
+    display: flex;
+    flex-direction: row;
+    max-width: 700px;
+    border-radius: 10px;
+     overflow: hidden;
+}
+
+.left-content{
+    width: 50%;
+    overflow: hidden;
+    
+}
+.product-image{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+.right-content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 3rem;
+    margin-block: 2rem;
+    
+}
+.product-name{
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #777;
+}
+.product-info{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.4rem;
+}
+.product-heading{
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1;
+    
+}
+.product-description{
+    margin-top: 2rem;
+     font-family: "Montserrat", sans-serif;
+     color: hsl(228, 12%, 48%);
+     line-height: 1.7;
+}
+.product-price{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    align-items: center;
+}
+.new-price{
+    color: var(--green-500);
+    font-weight: 700;
+    font-family: "Fraunces", serif;
+    
+     
+
+}
+.old-price{
+    text-decoration: line-through;
+    color:#777 ;
+     font-family: "Montserrat", sans-serif;
+     
+     
+}
+.cart-btn{
+    margin-top: 2rem;
+    background-color: var(--green-500);
+    color: var(--white);
+    font-family:  "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0.879rem 1rem;
+    border: none;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+    transition:  all 0.3s ease ;
+}
+.cart-btn:hover{
+    background-color: var(--green-700);
+}
+@media screen  and (max-width:520px){
+    .card{
+        flex-direction: column;
+       ;
+    }
+    .container{
+        padding: 0;
+    }
+}

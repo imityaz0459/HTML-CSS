@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap');
+:root{
+
+--white: hsl(0, 0%, 100%);
+
+--stone-100: hsl(30, 54%, 90%);
+--stone-150: hsl(30, 18%, 87%);
+--stone-600: hsl(30, 10%, 34%);
+--stone-900: hsl(24, 5%, 18%);
+
+--brown-800: hsl(14, 45%, 36%);
+
+--rose-800: hsl(332, 51%, 32%);
+--rose-50: hsl(330, 100%, 98%);
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: var(--stone-100);
+    width: 100%;
+    height: 100%;
+    padding: 6rem;
+     display: flex;
+    justify-content: center;
+    
+}
+.recipe-content{
+    padding: 1.5rem;
+   border-radius: 1rem;
+   overflow: hidden;
+    background-color: var(--white);
+    width: 650px;
+    height: 100%;
+    
+}
+.recipe-image{
+    height: 260px;
+    width: 600px;
+    border-radius:  1rem;
+    
+}
+.recipe-info{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+   
+}
+.recipe-heading{
+    font-family: "Young Serif", serif;
+    color:var(--brown-800) ;
+}
+.recipe-description{
+    font-family: "outfit" , sans-serif;
+}
+.preparation{
+    margin-top: 2rem;
+    background-color: var(--rose-50);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.time-heading{
+    color: var(--rose-800);
+     font-family: "outfit" , sans-serif;
+}
+.time-list{
+     
+    padding: 1rem;
+}
+.lists{
+ display: flex;
+    flex-direction: column;
+    gap: 1rem;
+     font-family: "outfit" , sans-serif;
+}
+.ingredients{
+      margin-top: 2rem;
+   
+    
+}
+.ingredients-heading{
+      font-family: "Young Serif", serif;
+      color: var(--brown-800);
+}
+.ingredients-info{
+    padding: 2rem;
+     display: flex;
+    flex-direction: column;
+    gap: 1rem;
+     font-family: "outfit" , sans-serif;
+     border-bottom: 1px solid #777;
+}
+.instruction{
+    margin-top: 2rem;
+}
+.instruction-heading{
+          font-family: "Young Serif", serif;
+      color: var(--brown-800);
+}
+.instruction-list{
+     padding: 2rem;
+     display: flex;
+    flex-direction: column;
+    gap: 1rem;
+     font-family: "outfit" , sans-serif;
+}
+.nutrition-heading{
+         font-family: "Young Serif", serif;
+      color: var(--brown-800);
+}
+.nutrition-para{
+    font-family: "outfit" , sans-serif;
+     margin-top: 1rem;
+}
+.nutrition-table{
+      font-family: "outfit" , sans-serif;
+        border-collapse: collapse;
+        padding: 2rem;
+        width: 100%;
+     
+
+}
+.nutrition-table th,
+.nutrition-table td {
+     padding: 15px;
+     border-bottom: 1px solid #ddd;
+     text-align: left;
+}

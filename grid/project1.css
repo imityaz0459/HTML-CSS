@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+  height: 100vh;
+    width: 100vw;
+    background-color:#E2EBF3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    background-color:#FFFFFF ;
+    /* border: 2px solid black; */
+    height: 436.225px;
+    width: 700px;
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    display: grid;
+    grid-template-areas:
+    "top-box top-box"
+    "left-box right-box"
+    ;
+    
+
+}
+#top-box{
+    padding: 25px;
+    grid-area: top-box;
+    /* width: 700px; */
+}
+.top-box-heading{
+    color: #2CBAB8;
+    font-family:karla;
+    font-size: 18.72px;
+     margin-block: 18.72px;
+    font-weight: bold;
+
+}
+.top-box-heading2{
+      color:#C0DF34;
+    font-family:karla;
+    font-size: 16px;
+     margin-block: 16px;
+    font-weight: bold;
+}
+.top-box-para{
+      color:#98A6BD;
+    font-family:karla;
+    font-size: 16px;
+     margin-block: 16px;
+    
+}
+#left-box{
+    background-color: #1FADAB;
+    padding: 25px;
+      grid-area: left-box;
+      width: 350px;
+}
+.left-box-heading{
+    color:white;
+    font-family:karla;
+    font-size: 18.72px;
+     /* margin-block: 18.72px; */
+    font-weight: bold;
+}
+.price-Tag{
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+}
+.price{
+    font-family:karla;
+    font-size: 32px;
+    color: white;
+    margin-top: 16px;
+    
+}
+.price-para{
+    color: white;
+    margin-top: 16px;
+    margin-left: 10px;
+    font-family:karla;
+    font-size: 16px;
+}
+.left-box-para{
+    color: white;
+    font-family:karla;
+    font-size: 16px;
+    margin-block: 16px;
+}
+.box-button{
+    height: 50px;
+    width: 300px;
+    padding: 1px 6px;
+    color: white;
+    font-family:karla;
+    font-size: 16px;
+    background-color: #B7D822;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+     box-shadow: 0 7px 10px rgba(0, 0, 0, 0.2);
+     margin-top: 12px;
+
+}
+#right-box{
+    background-color:#2CBAB8;
+    padding: 25px;
+      grid-area: right-box;
+      width: 350px;
+}
+.right-box-heading{
+    color: white;
+      font-family:karla;
+    font-size: 18.72px;
+     font-weight: bold;
+     
+
+}
+.right-box-para{
+    color: #E2EBF3;
+    font-family:karla;
+    font-size: 15px;
+    padding: 1.6px;
+    margin-top:12px;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+     transition: 0.3s;
+     letter-spacing: 1px;
+    
+
+}
+:hover.right-box-para{
+    /* color:white;
+    cursor: pointer; */
+     letter-spacing: 2px;
+    cursor: pointer;
+    
+}
