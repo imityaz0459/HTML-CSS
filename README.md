@@ -7,22 +7,20 @@ A collection of small front-end projects built while practicing and learning HTM
 Once GitHub Pages is enabled for this repo, every project will be viewable directly in the browser at:
 
 ```
-https://<imityaz0459>.github.io/html-css-projects/<project-folder-name>/
+https://imityaz0459.github.io/HTML-CSS/<project-folder-name>/
 ```
 
 ## 📁 Projects
 
 | # | Project | Description | Tech | Live Demo |
 |---|---------|-------------|------|-----------|
-| 1 | [Cart Quantity](./Cart-Quantity) | Widget to increase/decrease item quantity in a cart | HTML, CSS, JS | [View](#) |
-| 2 | [Food Recipe](./food-recipe) | Recipe card displaying ingredients and preparation steps | HTML, CSS | [View](#) |
-| 3 | [Grid](./grid) | Layout built using CSS Grid | HTML, CSS | [View](#) |
-| 4 | [Product Card](./Product-Card) | Card showing a product with image, price, and buy button | HTML, CSS | [View](#) |
-| 5 | [Profile Card](./Profile-Card) | Card displaying a profile photo, name, and short bio | HTML, CSS | [View](#) |
-| 6 | [QR Code Component](./QR-code-component) | Card displaying a QR code with a title and description | HTML, CSS | [View](#) |
-| 7 | [Social Links Profile](./Social-links-profile) | Profile card with links to social media platforms | HTML, CSS | [View](#) |
-
-> Edit the descriptions above if they don't match what you actually built. Add a new row here every time you push a new project.
+| 1 | [Cart Quantity](./Cart-Quantity) | Widget to increase/decrease item quantity in a cart | HTML, CSS, JS | [View](https://imityaz0459.github.io/HTML-CSS/Cart-Quantity/) |
+| 2 | [Food Recipe](./food-recipe) | Recipe card displaying ingredients and preparation steps | HTML, CSS | [View](https://imityaz0459.github.io/HTML-CSS/food-recipe/) |
+| 3 | [Grid](./grid) | Layout built using CSS Grid | HTML, CSS | [View](https://imityaz0459.github.io/HTML-CSS/grid/project1.html) |
+| 4 | [Product Card](./Product-Card) | Card showing a product with image, price, and buy button | HTML, CSS | [View](https://imityaz0459.github.io/HTML-CSS/Product-Card/) |
+| 5 | [Profile Card](./Profile-Card) | Card displaying a profile photo, name, and short bio | HTML, CSS | [View](https://imityaz0459.github.io/HTML-CSS/Profile-Card/) |
+| 6 | [QR Code Component](./QR-code-component) | Card displaying a QR code with a title and description | HTML, CSS | [View](https://imityaz0459.github.io/HTML-CSS/QR-code-component/) |
+| 7 | [Social Links Profile](./Social-links-profile) | Profile card with links to social media platforms | HTML, CSS | [View](https://imityaz0459.github.io/HTML-CSS/Social-links-profile/) |
 
 ## 🗂️ Folder Structure
 
