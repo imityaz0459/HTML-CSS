@@ -62,9 +62,7 @@ Every project folder follows the same pattern so it's easy to navigate:
 
 - `index.html` — entry point of the project
 - `style.css` — styling
-- `script.js` — (optional) if the project uses JavaScript
-- `images/` — (optional) image assets used in the project
-- `README.md` — (optional) short notes: what it is, what you learned, screenshot
+  
 
 ## 📌 About
 
