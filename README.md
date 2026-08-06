@@ -1,4 +1,4 @@
-# HTML & CSS Projects
+# HTML & CSS Projects.
 
 A collection of small front-end projects built while practicing and learning HTML, CSS, and JavaScript. Each folder is a self-contained project with its own code, assets, and notes.
 
