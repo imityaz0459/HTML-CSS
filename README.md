@@ -21,7 +21,7 @@ https://imityaz0459.github.io/HTML-CSS/<project-folder-name>/
 | 6 | [QR Code Component](./QR-code-component) | Card displaying a QR code with a title and description | HTML, CSS | [View](https://imityaz0459.github.io/HTML-CSS/QR-code-component/) |
 | 7 | [Social Links Profile](./Social-links-profile) | Profile card with links to social media platforms | HTML, CSS | [View](https://imityaz0459.github.io/HTML-CSS/Social-links-profile/) |
 
-## 🗂️ Folder Structure
+## 🗂️ Folder Structure.
 
 ```
 HTML&CSS/
