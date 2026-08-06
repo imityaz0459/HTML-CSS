@@ -56,7 +56,7 @@ HTML&CSS/
     └── ...
 ```
 
-## 🛠️ How Each Project Is Organized
+## 🛠️ How Each Project Is Organized.
 
 Every project folder follows the same pattern so it's easy to navigate:
 
