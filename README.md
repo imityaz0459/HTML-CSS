@@ -68,6 +68,6 @@ Every project folder follows the same pattern so it's easy to navigate:
 
 This repo is a running log of small front-end practice projects — landing pages, UI components, layouts, and mini apps. Bigger or more polished projects may eventually be moved to their own dedicated repos.
 
-## 📫 Connect
+## 📫 Connect.
 
 - GitHub: [imityaz0459](https://github.com/imityaz0459)
