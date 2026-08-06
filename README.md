@@ -9,7 +9,7 @@ A collection of small front-end projects built while practicing and learning HTM
 https://imityaz0459.github.io/HTML-CSS/<project-folder-name>/
 ```
 
-## 📁 Projects
+## 📁 Projects.
 
 | # | Project | Description | Tech | Live Demo |
 |---|---------|-------------|------|-----------|
